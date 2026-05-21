@@ -1,0 +1,56 @@
+body {
+    background-color: lightblue;
+    font-family: Arial;
+}
+
+/* titulo */
+#titulo-clinica {
+    color: darkblue;
+    text-align: center;
+}
+
+/* texto */
+.bemvindo {
+    text-align: center;
+    font-size: 18px;
+}
+
+/* serviços */
+#servicos {
+    margin: 20px;
+}
+
+.servico {
+    background-color: white;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+/* médicos */
+#medicos {
+    margin: 20px;
+}
+
+.medico {
+    background-color: white;
+    border: 1px solid gray;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* aviso */
+#aviso {
+    background-color: yellow;
+    padding: 10px;
+    margin: 20px;
+}
+
+/* depoimentos */
+.depoimento {
+    background-color: white;
+    margin: 20px;
+    padding: 10px;
+    border-left: 4px solid blue;
+}
+
