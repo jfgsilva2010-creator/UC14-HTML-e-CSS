@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Express Games digitais</title>
+
+  <style>
+    :root{
+      --cor-primaria: #6c3cff;
+      --cor-secundaria: #141414;
+      --cor-fundo: #0d0d0d;
+      --cor-texto: #ffffff;
+      --cor-botao: #8b5cff;
+      --cor-botao-hover: #a784ff;
+    }
+
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body{
+      background: linear-gradient(135deg, #0d0d0d, #1a1a1a);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: var(--cor-texto);
+    }
+
+    .container{
+      width: 900px;
+      background-color: var(--cor-secundaria);
+      border-radius: 20px;
+      padding: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: 0 0 25px rgba(108, 60, 255, 0.4);
+    }
+
+    .conteudo{
+      width: 50%;
+    }
+
+    .titulo{
+      font-size: 42px;
+      margin-bottom: 20px;
+      color: var(--cor-primaria);
+    }
+
+    .descricao{
+      font-size: 18px;
+      line-height: 1.6;
+      margin-bottom: 30px;
+      color: #d9d9d9;
+    }
+
+    .botoes{
+      display: flex;
+      gap: 15px;
+    }
+
+    .btn{
+      padding: 14px 24px;
+      border: none;
+      border-radius: 10px;
+      background-color: var(--cor-botao);
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .btn:hover{
+      background-color: var(--cor-botao-hover);
+      transform: scale(1.05);
+    }
+
+    .imagem{
+      width: 40%;
+    }
+
+    .imagem img{
+      width: 100%;
+      border-radius: 15px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="conteudo">
+      <h1 class="titulo">Express Games</h1>
+
+      <p class="descricao">
+        Descubra os jogos mais incríveis da nova geração.
+        Na Express Games você encontra lançamentos, acessórios
+        gamers e experiências épicas para elevar seu nível.
+      </p>
+
+      <div class="botoes">
+         <a href="https://expressgamesdigitais.com.br/" target="_blank">
+           <button class="btn">Explorar Jogos</button>
+         </a>
+               
+        <button class="btn">Comprar Agora</button>
+      </div>
+    </div>
+
+    <div class="imagem">
+      <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1200&auto=format&fit=crop" alt="Setup Gamer">
+    </div>
+
+  </div>
+
+</body>
+</html>
