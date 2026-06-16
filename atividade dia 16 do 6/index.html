@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade - Animação com Keyframes</title>
+
+    <style>
+        @keyframes moverBotao {
+            0% {
+                left: 0;
+                background-color: rgb(0, 208, 255);
+            }
+
+            50% {
+                background-color: rgb(0, 128, 255);
+            }
+
+            100% {
+                left: 300px;
+                background-color: rgb(0, 15, 220);
+            }
+        }
+
+        .botao {
+            position: relative;
+            padding: 15px 30px;
+            font-size: 18px;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+
+            animation: moverBotao 3s infinite alternate;
+        }
+    </style>
+</head>
+<body>
+  
+    
+<a href="https://open.spotify.com/playlist/5azdIe2ZeRecTT4tE1sOgL" target="_blank" >
+<button class="botao">Clique Aqui</button>
+    </a>
+
+</body>
+</html>
